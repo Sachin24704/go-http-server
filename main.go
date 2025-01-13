@@ -78,5 +78,3 @@ func sendResponse(conn net.Conn, status string, body string) {
 		log.Println(err)
 	}
 }
-
-
